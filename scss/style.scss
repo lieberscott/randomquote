@@ -1,0 +1,76 @@
+$pink: #A86BAA;
+
+a {
+  float: left;
+}
+
+body {
+  background: $pink;
+}
+
+i {
+  background-color: $pink;
+  border-radius: 3px;
+  color: white;
+  padding: 4px;
+}
+
+.author {
+  float: right;
+  font-size: 15px;
+  margin-top: 5px;
+}
+
+.backgroundwhite {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-bottom: 100px;
+  padding: 40px 40px 40px 40px;
+}
+
+.btn {
+  background-color: $pink;
+  color: white;
+  float: right;
+  margin-top: 2px;
+}
+
+.btn:link {
+  color: white;
+}
+
+.btn:visited {
+  color: white;
+}
+
+.btn:hover {
+  background-color: $pink;
+  color: white;
+  float: right;
+}
+
+.btn:focus {
+  color: white;
+}
+
+.btn:active {
+  color: white;
+}
+
+.btn:unclicked {
+  color: white;
+}
+
+
+.mark {
+  background: white;
+  font-family: 'Russo One', sans-serif;
+  font-size: 40px;
+}
+
+.message {
+  color: $pink;
+  font-family: 'Roboto', sans-serif;
+  font-size: 20px;
+}
